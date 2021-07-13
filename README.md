@@ -1,6 +1,6 @@
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mlund/template-for-supporting-information/HEAD)
 
-# Electronic Notebook: Surface Area Description of Salting-in andSalting-out of Caffeine
+# Electronic Notebook: Surface Area Description of Salting-in and Salting-out of Caffeine
 
 Template for Notebooks for Supporting Information and Zenodo Deposition.
 
