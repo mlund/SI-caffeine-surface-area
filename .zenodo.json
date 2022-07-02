@@ -3,32 +3,59 @@
     "description": "This repository contains electronic notebooks (Jupyter) for reproducing the simulation results presented in ...",
     "creators": [
         {
+	    "name": "Stefan Hervø-Hansen",
+	    "affiliation": "Division of Theoretical Chemistry, Department of Chemistry, Lund University, Sweden",
+            "orcid": "0000-0002-9629-9195"
+	},
+        {
+            "name": "Jan Heyda",
+	    "affiliation": "Department of Physical Chemistry, University of Chemistry and Technology, Prague, Czech Republic",
+            "orcid": "0000-0002-9428-9508"
+        },
+        {
             "name": "Mikael Lund",
             "affiliation": "Division of Theoretical Chemistry, Department of Chemistry, Lund University, Sweden",
             "orcid": "0000-0001-8178-8175"
         }
     ],
     "contributors": [
-        {
-            "name": "Alfons Åberg",
-            "orcid": "0000-0000-0000-0000",
-            "type": "Researcher",
-            "affiliation": "Department of ..."
-        }
+	{
+	    "name": "Jakub Polák",
+	    "affiliation": "Department of Physical Chemistry, University of Chemistry and Technology, Prague, Czech Republic",
+	    "orcid": "0000-0001-8906-4016",
+	    "type": "Researcher"
+	},
+	{
+	    "name": "Markéta Tomandlová",
+	    "affiliation": "Department of Physical Chemistry, University of Chemistry and Technology, Prague, Czech Republic",
+	    "orcid": "????-????-????-????",
+	    "type": "Researcher"
+	},
+	{
+	    "name": "Joachim Dzubiella",
+	    "affiliation": "Physikalisches Institut, Albert-Ludwigs Universität Freiburg, Freiburg im Breisgau, Germany",
+	    "orcid": "0000-0001-6751-1487",
+	    "type": "Researcher"
+	}
     ],
     "keywords": [
         "reproducible science",
-        "electronic notebooks"
+        "electronic notebooks",
+	"chemistry",
+	"metropolis monte carlo",
+	"solvation",
+	"SASA",
+	"caffeine"
     ],
     "related_identifiers": [
         {
             "scheme": "url",
-            "identifier": "https://github.com/mlund/template-for-supporting-information",
+            "identifier": "https://github.com/mlund/SI-caffeine-surface-area",
             "relation": "isSupplementTo"
         },
         {
             "scheme": "doi",
-            "identifier": "10.1021/jacs.1c01925",
+            "identifier": "????",
             "relation": "isSupplementTo"
         }
     ],
