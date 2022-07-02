@@ -1,4 +1,4 @@
-name: my_environment
+name: SASACaffeine  
 channels:
     - defaults
 dependencies:
