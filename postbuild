@@ -1,0 +1,6 @@
+git clone https://github.com/mlund/faunus.git
+cd faunus
+git checkout ddaaec64 # Faunus v2.4.2 (2020-10-26)
+
+# Finish installing Faunus:
+# Docs: https://faunus.readthedocs.io/en/latest/_docs/install.html

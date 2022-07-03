@@ -1,11 +1,11 @@
 name: SASACaffeine  
 channels:
-    - defaults
+    - conda_forge
 dependencies:
-    - python=3
-    - pandas=1
-    - scipy=1
-    - matplotlib=3
-    - numpy=1
+    - python=3.8
+    - pandas=1.4
+    - scipy=1.8
+    - matplotlib=3.3
+    - numpy=1.21
     - jupyter
-    - notebook
+    - notebook=6.4
