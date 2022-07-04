@@ -1,8 +1,9 @@
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mlund/template-for-supporting-information/HEAD)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mlund/
+SI-caffeine-surface-area/HEAD)
 
 # Electronic Notebook: Surface Area Description of Salting-in and Salting-out of Caffeine
 
-Template for Notebooks for Supporting Information and Zenodo Deposition.
+This is supporting information for the scientific manuscript by _Hervø-Hansen et al._ (_????_, 2022, doi: [doi](https://doi.org/10.1039/D1CP04129K)) on the usage of multi-scale computer simulations combined with vapor-pressure osmometry on caffeine solutions to reveal that a SASA description captures a rich set of molecular driving forces in tertiary solutions at changing solute and osmolyte concentrations. All figures within the analyis are publication ready and can be reproduced by running the provided Jupyter notebooks (`.ipynb`). For running the simulation we recommend you clone the repository, else the original dataset can be analyzed through the use of [Binder](https://mybinder.org), which will open the notebook in an executable environment and can be accessed [here](https://mybinder.org/v2/gh/mlund/SI-caffeine-surface-area/HEAD).
 
 ## Layout
 
