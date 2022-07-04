@@ -1,5 +1,4 @@
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mlund/
-SI-caffeine-surface-area/HEAD)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mlund/SI-caffeine-surface-area/HEAD)
 
 # Electronic Notebook: Surface Area Description of Salting-in and Salting-out of Caffeine
 
