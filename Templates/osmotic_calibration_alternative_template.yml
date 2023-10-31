@@ -19,7 +19,7 @@ atomlist:
 
 moleculelist:
     - CFF1:
-        structure: {{ HOMEDIR }}/Structures/CFF_CG.aam
+        structure: {{ Homedir }}/Structures/CFF_CG.aam
         insdir: [1,1,1]
         rigid: True 
     

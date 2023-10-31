@@ -19,7 +19,7 @@ atomlist:
 
 moleculelist:
     - CFF1:
-        structure: {{ HOMEDIR }}/Structures/CFF_CG.aam
+        structure: {{ Homedir }}/Structures/CFF_CG.aam
         insdir: [1,1,1]
         rigid: True 
     
@@ -38,7 +38,9 @@ moves:
     - moltransrot: {molecule: CFF1, dp: 10.0, dprot: 1, repeat: 10, dir: [1,1,1]}
     
 analysis:
-    - density:      {nstep: 100, nskip: {{ EquilSteps }} }
-    - systemenergy: {file: energy.dat.gz, nstep: 100 }
-    - virtualvolume: {dV: 5, nstep: 100, file: volume.dat, nskip: {{EquilSteps }} }
-    - savestate:    {file: restart.json, nstep: -1}
+    - molecule_density: {nstep: 100, nskip: {{ EquilSteps }} }
+    - systemenergy:     {file: energy.dat.gz, nstep: 100 }
+    - virtualvolume:    {dV: 5, nstep: 100, file: volume.dat, nskip: {{EquilSteps }} }
+    - savestate:        {file: restart.json, nstep: -1}
+    - savestate:        {file: topology.gro, nstep: -1}
+    - xtcfile:          {file: trajectory.xtc, nstep: 100, nskip: {{EquilSteps }} }
