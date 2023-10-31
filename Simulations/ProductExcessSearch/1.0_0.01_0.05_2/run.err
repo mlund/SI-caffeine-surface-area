@@ -1,0 +1,31 @@
+[faunus 644109] T: creating exclusion matrix 0×0 for 0 atoms within distance 0
+[faunus 644109] I: Reading molecule configuration from file: /data2/stefan/SI-caffeine-surface-area/Structures/CFF_CG.aam
+[faunus 644109] D: comment line: Infile: CFF_CG.pdb on 2019-01-24 16:11:26.125618 aurora1
+[faunus 644109] D: net charge of loaded structure: 0e
+[faunus 644109] T: creating exclusion matrix 8×0 for 8 atoms within distance 0
+[faunus 644109] T: creating exclusion matrix 0×0 for 0 atoms within distance 0
+[faunus 644109] I: Reading molecule configuration from file: /data2/stefan/SI-caffeine-surface-area/Structures/CFF_CG.aam
+[faunus 644109] D: comment line: Infile: CFF_CG.pdb on 2019-01-24 16:11:26.125618 aurora1
+[faunus 644109] D: net charge of loaded structure: 0e
+[faunus 644109] T: creating exclusion matrix 8×0 for 8 atoms within distance 0
+[faunus 644109] T: space particle capacity = 3768
+[faunus 644109] T: space groups capacity = 471
+[faunus 644109] I: adding 470 CFF1 molecules --> 4.99490E-02 mol/l (0 inactive)
+[faunus 644109] I: adding 1 CFF2 molecules --> 0.00000E+00 mol/l (1 inactive)
+[faunus 644109] T: particles inserted = 3768
+[faunus 644109] T: groups inserted = 471
+[faunus 644109] D: Combination rule lorentz_berthelot in effect for the wca potential.
+[faunus 644109] T: Pair matrices for wca sigma (8×8) and epsilon (8×8) created using 0 custom pairs.
+[faunus 644109] D: activated instant energy summation
+[faunus 644109] D: setting summation policy to "serial"
+[faunus 644109] D: hamiltonian expanded with nonbonded_exact
+[faunus 644109] I: initial energy = 1.754806E+08 kT
+[faunus 644109] W: `density` is replaced by `molecule_density` and `atom_density`. Activating the latter...
+[faunus 644109] T: enabling gzip compression for energy.dat.gz
+[mcloop 644109] [1670491108.031746] W: humongous negative energy change
+[mcloop 644109] [1670491108.066795] W: humongous negative energy change
+[faunus 644109] T: preparing xtc output for 3760 particles
+[faunus 644109] D: writing to topology.pqr
+[faunus 644109] D: writing to topology.gro
+[faunus 644109] E: xtcfile: xtc file traj.xtc could not be written (error code 7)
+xtcfile: xtc file traj.xtc could not be written (error code 7)

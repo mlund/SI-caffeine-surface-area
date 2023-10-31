@@ -1,0 +1,31 @@
+[faunus 639638] T: creating exclusion matrix 0×0 for 0 atoms within distance 0
+[faunus 639638] I: Reading molecule configuration from file: /data2/stefan/SI-caffeine-surface-area/Structures/CFF_CG.aam
+[faunus 639638] D: comment line: Infile: CFF_CG.pdb on 2019-01-24 16:11:26.125618 aurora1
+[faunus 639638] D: net charge of loaded structure: 0e
+[faunus 639638] T: creating exclusion matrix 8×0 for 8 atoms within distance 0
+[faunus 639638] T: creating exclusion matrix 0×0 for 0 atoms within distance 0
+[faunus 639638] I: Reading molecule configuration from file: /data2/stefan/SI-caffeine-surface-area/Structures/CFF_CG.aam
+[faunus 639638] D: comment line: Infile: CFF_CG.pdb on 2019-01-24 16:11:26.125618 aurora1
+[faunus 639638] D: net charge of loaded structure: 0e
+[faunus 639638] T: creating exclusion matrix 8×0 for 8 atoms within distance 0
+[faunus 639638] T: space particle capacity = 1888
+[faunus 639638] T: space groups capacity = 236
+[faunus 639638] I: adding 235 CFF1 molecules --> 2.49745E-02 mol/l (0 inactive)
+[faunus 639638] I: adding 1 CFF2 molecules --> 0.00000E+00 mol/l (1 inactive)
+[faunus 639638] T: particles inserted = 1888
+[faunus 639638] T: groups inserted = 236
+[faunus 639638] D: Combination rule lorentz_berthelot in effect for the wca potential.
+[faunus 639638] T: Pair matrices for wca sigma (8×8) and epsilon (8×8) created using 0 custom pairs.
+[faunus 639638] D: activated instant energy summation
+[faunus 639638] D: setting summation policy to "serial"
+[faunus 639638] D: hamiltonian expanded with nonbonded_exact
+[faunus 639638] I: initial energy = 7.220296E+06 kT
+[faunus 639638] W: `density` is replaced by `molecule_density` and `atom_density`. Activating the latter...
+[faunus 639638] T: enabling gzip compression for energy.dat.gz
+[mcloop 639638] [1670487782.272006] W: humongous negative energy change
+[mcloop 639638] [1670487782.279310] W: humongous negative energy change
+[mcloop 639638] [1670487782.338943] W: humongous negative energy change
+[faunus 639638] T: preparing xtc output for 1880 particles
+[faunus 639638] I: relative energy drift = 2.579E-14
+[faunus 639638] D: writing to topology.pqr
+[faunus 639638] D: writing to topology.gro

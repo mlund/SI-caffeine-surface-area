@@ -1,0 +1,30 @@
+[faunus 1130845] T: creating exclusion matrix 0×0 for 0 atoms within distance 0
+[faunus 1130845] I: Reading molecule configuration from file: /data2/stefan/SI-caffeine-surface-area/Structures/CFF_CG.aam
+[faunus 1130845] D: comment line: Infile: CFF_CG.pdb on 2019-01-24 16:11:26.125618 aurora1
+[faunus 1130845] D: net charge of loaded structure: 0e
+[faunus 1130845] T: creating exclusion matrix 8×0 for 8 atoms within distance 0
+[faunus 1130845] T: creating exclusion matrix 0×0 for 0 atoms within distance 0
+[faunus 1130845] I: Reading molecule configuration from file: /data2/stefan/SI-caffeine-surface-area/Structures/CFF_CG.aam
+[faunus 1130845] D: comment line: Infile: CFF_CG.pdb on 2019-01-24 16:11:26.125618 aurora1
+[faunus 1130845] D: net charge of loaded structure: 0e
+[faunus 1130845] T: creating exclusion matrix 8×0 for 8 atoms within distance 0
+[faunus 1130845] T: space particle capacity = 1888
+[faunus 1130845] T: space groups capacity = 236
+[faunus 1130845] I: adding 235 CFF1 molecules --> 2.49745E-02 mol/l (0 inactive)
+[faunus 1130845] I: adding 1 CFF2 molecules --> 0.00000E+00 mol/l (1 inactive)
+[faunus 1130845] T: particles inserted = 1888
+[faunus 1130845] T: groups inserted = 236
+[faunus 1130845] D: Combination rule lorentz_berthelot in effect for the wca potential.
+[faunus 1130845] T: Pair matrices for wca sigma (8×8) and epsilon (8×8) created using 0 custom pairs.
+[faunus 1130845] D: activated instant energy summation
+[faunus 1130845] D: setting summation policy to "serial"
+[faunus 1130845] D: hamiltonian expanded with nonbonded_exact
+[faunus 1130845] I: initial energy = 3.608040E+04 kT
+[faunus 1130845] W: `density` is replaced by `molecule_density` and `atom_density`. Activating the latter...
+[faunus 1130845] T: enabling gzip compression for energy.dat.gz
+[mcloop 1130845] [1670487387.773424] W: humongous negative energy change
+[mcloop 1130845] [1670487387.810257] W: humongous negative energy change
+[faunus 1130845] T: preparing xtc output for 1880 particles
+[faunus 1130845] I: relative energy drift = -5.061E-14
+[faunus 1130845] D: writing to topology.pqr
+[faunus 1130845] D: writing to topology.gro

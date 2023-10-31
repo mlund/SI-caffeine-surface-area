@@ -1,0 +1,49 @@
+[faunus 642993] T: creating exclusion matrix 0×0 for 0 atoms within distance 0
+[faunus 642993] I: Reading molecule configuration from file: /data2/stefan/SI-caffeine-surface-area/Structures/CFF_CG.aam
+[faunus 642993] D: comment line: Infile: CFF_CG.pdb on 2019-01-24 16:11:26.125618 aurora1
+[faunus 642993] D: net charge of loaded structure: 0e
+[faunus 642993] T: creating exclusion matrix 8×0 for 8 atoms within distance 0
+[faunus 642993] T: creating exclusion matrix 0×0 for 0 atoms within distance 0
+[faunus 642993] I: Reading molecule configuration from file: /data2/stefan/SI-caffeine-surface-area/Structures/CFF_CG.aam
+[faunus 642993] D: comment line: Infile: CFF_CG.pdb on 2019-01-24 16:11:26.125618 aurora1
+[faunus 642993] D: net charge of loaded structure: 0e
+[faunus 642993] T: creating exclusion matrix 8×0 for 8 atoms within distance 0
+[faunus 642993] T: space particle capacity = 3768
+[faunus 642993] T: space groups capacity = 471
+[faunus 642993] I: adding 470 CFF1 molecules --> 4.99490E-02 mol/l (0 inactive)
+[faunus 642993] I: adding 1 CFF2 molecules --> 0.00000E+00 mol/l (1 inactive)
+[faunus 642993] T: particles inserted = 3768
+[faunus 642993] T: groups inserted = 471
+[faunus 642993] D: Combination rule lorentz_berthelot in effect for the wca potential.
+[faunus 642993] T: Pair matrices for wca sigma (8×8) and epsilon (8×8) created using 0 custom pairs.
+[faunus 642993] D: activated instant energy summation
+[faunus 642993] D: setting summation policy to "serial"
+[faunus 642993] D: hamiltonian expanded with nonbonded_exact
+[faunus 642993] I: initial energy = 1.905747E+07 kT
+[faunus 642993] W: `density` is replaced by `molecule_density` and `atom_density`. Activating the latter...
+[faunus 642993] T: enabling gzip compression for energy.dat.gz
+[mcloop 642993] [1670491266.760294] W: humongous negative energy change
+[mcloop 642993] [1670491266.815774] W: humongous negative energy change
+[mcloop 642993] [1670491266.823653] W: humongous negative energy change
+[mcloop 642993] [1670491266.913821] W: humongous negative energy change
+[mcloop 642993] [1670491266.963881] W: humongous negative energy change
+[mcloop 642993] [1670491267.036831] W: humongous negative energy change
+[mcloop 642993] [1670491267.041775] W: humongous negative energy change
+[mcloop 642993] [1670491267.060438] W: humongous negative energy change
+[mcloop 642993] [1670491267.125016] W: humongous negative energy change
+[mcloop 642993] [1670491267.201892] W: humongous negative energy change
+[mcloop 642993] [1670491267.205416] W: humongous negative energy change
+[mcloop 642993] [1670491267.530596] W: humongous negative energy change
+[mcloop 642993] [1670491267.598051] W: humongous negative energy change
+[mcloop 642993] [1670491267.686072] W: humongous negative energy change
+[mcloop 642993] [1670491267.748523] W: humongous negative energy change
+[mcloop 642993] [1670491267.807430] W: humongous negative energy change
+[mcloop 642993] [1670491267.860965] W: humongous negative energy change
+[mcloop 642993] [1670491268.020484] W: humongous negative energy change
+[mcloop 642993] [1670491268.271424] W: humongous negative energy change
+[mcloop 642993] [1670491268.418977] W: humongous negative energy change
+[faunus 642993] T: preparing xtc output for 3760 particles
+[faunus 642993] D: writing to topology.pqr
+[faunus 642993] D: writing to topology.gro
+[faunus 642993] E: xtcfile: xtc file traj.xtc could not be written (error code 7)
+xtcfile: xtc file traj.xtc could not be written (error code 7)

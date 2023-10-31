@@ -1,0 +1,28 @@
+[faunus 644430] T: creating exclusion matrix 0×0 for 0 atoms within distance 0
+[faunus 644430] I: Reading molecule configuration from file: /data2/stefan/SI-caffeine-surface-area/Structures/CFF_CG.aam
+[faunus 644430] D: comment line: Infile: CFF_CG.pdb on 2019-01-24 16:11:26.125618 aurora1
+[faunus 644430] D: net charge of loaded structure: 0e
+[faunus 644430] T: creating exclusion matrix 8×0 for 8 atoms within distance 0
+[faunus 644430] T: creating exclusion matrix 0×0 for 0 atoms within distance 0
+[faunus 644430] I: Reading molecule configuration from file: /data2/stefan/SI-caffeine-surface-area/Structures/CFF_CG.aam
+[faunus 644430] D: comment line: Infile: CFF_CG.pdb on 2019-01-24 16:11:26.125618 aurora1
+[faunus 644430] D: net charge of loaded structure: 0e
+[faunus 644430] T: creating exclusion matrix 8×0 for 8 atoms within distance 0
+[faunus 644430] T: space particle capacity = 1888
+[faunus 644430] T: space groups capacity = 236
+[faunus 644430] I: adding 235 CFF1 molecules --> 2.49745E-02 mol/l (0 inactive)
+[faunus 644430] I: adding 1 CFF2 molecules --> 0.00000E+00 mol/l (1 inactive)
+[faunus 644430] T: particles inserted = 1888
+[faunus 644430] T: groups inserted = 236
+[faunus 644430] D: Combination rule lorentz_berthelot in effect for the wca potential.
+[faunus 644430] T: Pair matrices for wca sigma (8×8) and epsilon (8×8) created using 0 custom pairs.
+[faunus 644430] D: activated instant energy summation
+[faunus 644430] D: setting summation policy to "serial"
+[faunus 644430] D: hamiltonian expanded with nonbonded_exact
+[faunus 644430] I: initial energy = -5.714771E+00 kT
+[faunus 644430] W: `density` is replaced by `molecule_density` and `atom_density`. Activating the latter...
+[faunus 644430] T: enabling gzip compression for energy.dat.gz
+[faunus 644430] T: preparing xtc output for 1880 particles
+[faunus 644430] I: relative energy drift = 2.524E-11
+[faunus 644430] D: writing to topology.pqr
+[faunus 644430] D: writing to topology.gro
