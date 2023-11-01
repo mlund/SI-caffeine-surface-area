@@ -1,10 +1,10 @@
 {
-    "title": "Electronic Notebook: Surface Area Description of Salting-in andSalting-out of Caffeine",
-    "description": "This repository contains electronic notebooks (Jupyter) for reproducing the simulation results presented in ...",
+    "title": "Electronic Notebook: Salt Effects on Caffeine Across Concentration Regimes",
+    "description": "This repository contains electronic notebooks (Jupyter) for reproducing the simulation results",
     "creators": [
         {
 	    "name": "Stefan Hervø-Hansen",
-	    "affiliation": "Division of Theoretical Chemistry, Department of Chemistry, Lund University, Sweden",
+	    "affiliation": "Division of Computational Chemistry, Department of Chemistry, Lund University, Sweden",
             "orcid": "0000-0002-9629-9195"
 	},
         {
@@ -14,7 +14,7 @@
         },
         {
             "name": "Mikael Lund",
-            "affiliation": "Division of Theoretical Chemistry, Department of Chemistry, Lund University, Sweden",
+            "affiliation": "Division of Computational Chemistry, Department of Chemistry, Lund University, Sweden",
             "orcid": "0000-0001-8178-8175"
         }
     ],
@@ -55,7 +55,7 @@
         },
         {
             "scheme": "doi",
-            "identifier": "????",
+            "identifier": "10.1021/acs.jpcb.3c01085",
             "relation": "isSupplementTo"
         }
     ],
