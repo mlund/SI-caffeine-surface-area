@@ -1,0 +1,13 @@
+#!/bin/bash
+#PBS -l nodes=1:ppn=1:nu               # 1 node, 1 core, CPU node
+#PBS -N Caffeine_0.075 # Job name
+#PBS -e run.err            # Error output
+#PBS -o run.out            # Output file name
+
+source ~/.bashrc
+source ~/.bash_profile
+
+cd /data2/stefan/SI-caffeine-surface-area/Simulations/osmoticCalibration/0.075
+. /data2/APPLI/packages/gcc/gcc-12.1.0.rc
+
+~/faunus/faunus -i Caffeine_calibration.json -v6 --nobar

@@ -1,0 +1,3034 @@
+{
+  "analysis": [
+    {
+      "atom_density": {
+        "<1/V>": 6.4e-08,
+        "<V>": 15620000.0,
+        "<∛V>": 250.0,
+        "densities": {},
+        "nskip": 50000,
+        "nstep": 10,
+        "samples": 100000,
+        "∛<V>": 250.0
+      }
+    },
+    {
+      "systemenergy": {
+        "Cv/kB": 5092.1,
+        "file": "energy.dat.gz",
+        "final": [
+          -798.541638275267
+        ],
+        "init": 1236.6,
+        "mean": -903.55,
+        "nstep": 200,
+        "samples": 5250
+      }
+    },
+    {
+      "widom": {
+        "absz": false,
+        "insertions": 2500000,
+        "insertscheme": {
+          "allow overlap": false,
+          "insdir": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "insoffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "keeppos": false,
+          "rotate": true
+        },
+        "molecule": "CFF2",
+        "nskip": 50000,
+        "nstep": 10,
+        "reference": "doi:10/dkv4s6",
+        "samples": 100000,
+        "μ/kT": {
+          "excess": -0.8899323220651522
+        }
+      }
+    },
+    {
+      "savestate": {
+        "file": "restart.json"
+      }
+    },
+    {
+      "savestate": {
+        "file": "topology.pqr"
+      }
+    },
+    {
+      "savestate": {
+        "file": "topology.gro"
+      }
+    },
+    {
+      "molrdf": {
+        "dim": 3,
+        "dr": 0.25,
+        "file": "rdf.dat",
+        "name1": "CFF1",
+        "name2": "CFF1",
+        "nskip": 50000,
+        "nstep": 10,
+        "samples": 100000,
+        "slicedir": [
+          0,
+          0,
+          0
+        ],
+        "thickness": 0.0
+      }
+    },
+    {
+      "xtcfile": {
+        "file": "traj.xtc",
+        "molecules": [
+          "CFF1"
+        ],
+        "nskip": 50000,
+        "nstep": 200,
+        "samples": 5000
+      }
+    }
+  ],
+  "compiler": "12.1.0",
+  "energy": [
+    {
+      "hamiltonian": [
+        {
+          "nonbonded": {
+            "cutoff_g2g": {
+              "CFF1 CFF1": 15.0,
+              "CFF2 CFF1": 15.0,
+              "CFF2 CFF2": 15.0
+            },
+            "functor potential": {
+              "cutoff_g2g": {
+                "default": 15
+              },
+              "default": [
+                {
+                  "wca": {
+                    "mixing": "LB"
+                  }
+                },
+                {
+                  "sasa": {
+                    "molarity": 1.0,
+                    "radius": 1.3
+                  }
+                }
+              ]
+            },
+            "relative time": 0.16992637519179263,
+            "selfenergy": {
+              "dipole": false,
+              "monopole": false
+            },
+            "summation_policy": "serial"
+          }
+        }
+      ]
+    }
+  ],
+  "geometry": {
+    "length": [
+      250.0,
+      250.0,
+      250.0
+    ],
+    "type": "cuboid"
+  },
+  "git revision": "c2242346 (2022-06-21)",
+  "groups": [
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          0,
+          7
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          8,
+          15
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          16,
+          23
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          24,
+          31
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          32,
+          39
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          40,
+          47
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          48,
+          55
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          56,
+          63
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          64,
+          71
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          72,
+          79
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          80,
+          87
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          88,
+          95
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          96,
+          103
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          104,
+          111
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          112,
+          119
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          120,
+          127
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          128,
+          135
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          136,
+          143
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          144,
+          151
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          152,
+          159
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          160,
+          167
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          168,
+          175
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          176,
+          183
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          184,
+          191
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          192,
+          199
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          200,
+          207
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          208,
+          215
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          216,
+          223
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          224,
+          231
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          232,
+          239
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          240,
+          247
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          248,
+          255
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          256,
+          263
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          264,
+          271
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          272,
+          279
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          280,
+          287
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          288,
+          295
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          296,
+          303
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          304,
+          311
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          312,
+          319
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          320,
+          327
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          328,
+          335
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          336,
+          343
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          344,
+          351
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          352,
+          359
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          360,
+          367
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          368,
+          375
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          376,
+          383
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          384,
+          391
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          392,
+          399
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          400,
+          407
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          408,
+          415
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          416,
+          423
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          424,
+          431
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          432,
+          439
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          440,
+          447
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          448,
+          455
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          456,
+          463
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          464,
+          471
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          472,
+          479
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          480,
+          487
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          488,
+          495
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          496,
+          503
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          504,
+          511
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          512,
+          519
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          520,
+          527
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          528,
+          535
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          536,
+          543
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          544,
+          551
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          552,
+          559
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          560,
+          567
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          568,
+          575
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          576,
+          583
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          584,
+          591
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          592,
+          599
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          600,
+          607
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          608,
+          615
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          616,
+          623
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          624,
+          631
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          632,
+          639
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          640,
+          647
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          648,
+          655
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          656,
+          663
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          664,
+          671
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          672,
+          679
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          680,
+          687
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          688,
+          695
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          696,
+          703
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          704,
+          711
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          712,
+          719
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          720,
+          727
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          728,
+          735
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          736,
+          743
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          744,
+          751
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          752,
+          759
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          760,
+          767
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          768,
+          775
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          776,
+          783
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          784,
+          791
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          792,
+          799
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          800,
+          807
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          808,
+          815
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          816,
+          823
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          824,
+          831
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          832,
+          839
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          840,
+          847
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          848,
+          855
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          856,
+          863
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          864,
+          871
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          872,
+          879
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          880,
+          887
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          888,
+          895
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          896,
+          903
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          904,
+          911
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          912,
+          919
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          920,
+          927
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          928,
+          935
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          936,
+          943
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          944,
+          951
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          952,
+          959
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          960,
+          967
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          968,
+          975
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          976,
+          983
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          984,
+          991
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          992,
+          999
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          1000,
+          1007
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          1008,
+          1015
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          1016,
+          1023
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          1024,
+          1031
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          1032,
+          1039
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          1040,
+          1047
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          1048,
+          1055
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          1056,
+          1063
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          1064,
+          1071
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          1072,
+          1079
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          1080,
+          1087
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          1088,
+          1095
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          1096,
+          1103
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          1104,
+          1111
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          1112,
+          1119
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          1120,
+          1127
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          1128,
+          1135
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          1136,
+          1143
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          1144,
+          1151
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          1152,
+          1159
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          1160,
+          1167
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          1168,
+          1175
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          1176,
+          1183
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          1184,
+          1191
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          1192,
+          1199
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          1200,
+          1207
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          1208,
+          1215
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          1216,
+          1223
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          1224,
+          1231
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          1232,
+          1239
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          1240,
+          1247
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          1248,
+          1255
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          1256,
+          1263
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          1264,
+          1271
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          1272,
+          1279
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          1280,
+          1287
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          1288,
+          1295
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          1296,
+          1303
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          1304,
+          1311
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          1312,
+          1319
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          1320,
+          1327
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          1328,
+          1335
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          1336,
+          1343
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          1344,
+          1351
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          1352,
+          1359
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          1360,
+          1367
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          1368,
+          1375
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          1376,
+          1383
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          1384,
+          1391
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          1392,
+          1399
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          1400,
+          1407
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          1408,
+          1415
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          1416,
+          1423
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          1424,
+          1431
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          1432,
+          1439
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          1440,
+          1447
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          1448,
+          1455
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          1456,
+          1463
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          1464,
+          1471
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          1472,
+          1479
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          1480,
+          1487
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          1488,
+          1495
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          1496,
+          1503
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          1504,
+          1511
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          1512,
+          1519
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          1520,
+          1527
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          1528,
+          1535
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          1536,
+          1543
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          1544,
+          1551
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          1552,
+          1559
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          1560,
+          1567
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          1568,
+          1575
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          1576,
+          1583
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          1584,
+          1591
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          1592,
+          1599
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          1600,
+          1607
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          1608,
+          1615
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          1616,
+          1623
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          1624,
+          1631
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          1632,
+          1639
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          1640,
+          1647
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          1648,
+          1655
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          1656,
+          1663
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          1664,
+          1671
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          1672,
+          1679
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          1680,
+          1687
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          1688,
+          1695
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          1696,
+          1703
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          1704,
+          1711
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          1712,
+          1719
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          1720,
+          1727
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          1728,
+          1735
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          1736,
+          1743
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          1744,
+          1751
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          1752,
+          1759
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          1760,
+          1767
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          1768,
+          1775
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          1776,
+          1783
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          1784,
+          1791
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          1792,
+          1799
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          1800,
+          1807
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          1808,
+          1815
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          1816,
+          1823
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          1824,
+          1831
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          1832,
+          1839
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          1840,
+          1847
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          1848,
+          1855
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          1856,
+          1863
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          1864,
+          1871
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF1": {
+        "compressible": false,
+        "index": [
+          1872,
+          1879
+        ],
+        "size": 8
+      }
+    },
+    {
+      "CFF2": {
+        "capacity": 8,
+        "compressible": false,
+        "size": 0
+      }
+    }
+  ],
+  "montecarlo": {
+    "average potential energy (kT)": -903.4071607787732,
+    "last move": "cluster"
+  },
+  "moves": [
+    {
+      "moltransrot": {
+        "R/Å ≈ √(⟨r²⟩/4⟨θ²⟩)": 4.54,
+        "acceptance": 0.512,
+        "dir": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "dirrot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "dp": 2.5,
+        "dprot": 0.5,
+        "molecule": "CFF1",
+        "molid": 0,
+        "moves": 105019750,
+        "relative time": 0.062,
+        "repeat": 100,
+        "stochastic": true,
+        "√⟨r²⟩": 0.927,
+        "√⟨θ²⟩": 0.102,
+        "√⟨θ²⟩/°": 5.84
+      }
+    },
+    {
+      "cluster": {
+        "acceptance": 0.893,
+        "bias rejection rate": 0.0425,
+        "cite": "doi:10/cj9gnn",
+        "cluster analysis": {
+          "shape distribution": [
+            [
+              1,
+              {
+                "Rg = √⟨s²⟩": 0.0,
+                "acylindricity (c)": 0.0,
+                "asphericity (b)": 0.0,
+                "relative shape anisotropy (𝜅²)": null
+              }
+            ],
+            [
+              2,
+              {
+                "Rg = √⟨s²⟩": 2.3764511070564,
+                "acylindricity (c)": 4.4328324719739536e-16,
+                "asphericity (b)": 5.647519864229589,
+                "relative shape anisotropy (𝜅²)": 1.0
+              }
+            ],
+            [
+              3,
+              {
+                "Rg = √⟨s²⟩": 3.7072621443545932,
+                "acylindricity (c)": 0.7663386048714335,
+                "asphericity (b)": 12.594284699655235,
+                "relative shape anisotropy (𝜅²)": 0.8530267360306645
+              }
+            ],
+            [
+              4,
+              {
+                "Rg = √⟨s²⟩": 4.871721819409449,
+                "acylindricity (c)": 1.580422133392837,
+                "asphericity (b)": 20.97272465904257,
+                "relative shape anisotropy (𝜅²)": 0.7889683034087129
+              }
+            ],
+            [
+              5,
+              {
+                "Rg = √⟨s²⟩": 5.895865110110416,
+                "acylindricity (c)": 2.6577025581192646,
+                "asphericity (b)": 29.8009622752799,
+                "relative shape anisotropy (𝜅²)": 0.7344722885269273
+              }
+            ],
+            [
+              6,
+              {
+                "Rg = √⟨s²⟩": 6.7968480812427705,
+                "acylindricity (c)": 4.0782774746249,
+                "asphericity (b)": 38.31750820155142,
+                "relative shape anisotropy (𝜅²)": 0.6843474407576428
+              }
+            ],
+            [
+              7,
+              {
+                "Rg = √⟨s²⟩": 7.590471379861544,
+                "acylindricity (c)": 5.526180154326507,
+                "asphericity (b)": 46.58879324349294,
+                "relative shape anisotropy (𝜅²)": 0.6447353257363133
+              }
+            ],
+            [
+              8,
+              {
+                "Rg = √⟨s²⟩": 8.239873647028812,
+                "acylindricity (c)": 7.4093318218767985,
+                "asphericity (b)": 52.805138625580675,
+                "relative shape anisotropy (𝜅²)": 0.5944409574294067
+              }
+            ],
+            [
+              9,
+              {
+                "Rg = √⟨s²⟩": 8.87515340462501,
+                "acylindricity (c)": 8.989458006819968,
+                "asphericity (b)": 59.93316873940683,
+                "relative shape anisotropy (𝜅²)": 0.5693217747371888
+              }
+            ],
+            [
+              10,
+              {
+                "Rg = √⟨s²⟩": 9.408745356104351,
+                "acylindricity (c)": 10.37151795690995,
+                "asphericity (b)": 65.79111588028294,
+                "relative shape anisotropy (𝜅²)": 0.5386141829556527
+              }
+            ],
+            [
+              11,
+              {
+                "Rg = √⟨s²⟩": 9.867030636233647,
+                "acylindricity (c)": 12.375225119276573,
+                "asphericity (b)": 69.8102155299308,
+                "relative shape anisotropy (𝜅²)": 0.5010038053078173
+              }
+            ],
+            [
+              12,
+              {
+                "Rg = √⟨s²⟩": 10.345957172375197,
+                "acylindricity (c)": 13.31887705799952,
+                "asphericity (b)": 75.16930572569744,
+                "relative shape anisotropy (𝜅²)": 0.4751151104203501
+              }
+            ],
+            [
+              13,
+              {
+                "Rg = √⟨s²⟩": 10.44419540795758,
+                "acylindricity (c)": 15.720610569419621,
+                "asphericity (b)": 71.86509281310906,
+                "relative shape anisotropy (𝜅²)": 0.42980448600513305
+              }
+            ],
+            [
+              14,
+              {
+                "Rg = √⟨s²⟩": 11.208383538123542,
+                "acylindricity (c)": 14.80042154898506,
+                "asphericity (b)": 86.65266695255401,
+                "relative shape anisotropy (𝜅²)": 0.4534220819101014
+              }
+            ],
+            [
+              15,
+              {
+                "Rg = √⟨s²⟩": 11.402524847482828,
+                "acylindricity (c)": 14.772055022622895,
+                "asphericity (b)": 89.30733777997548,
+                "relative shape anisotropy (𝜅²)": 0.4450286242706763
+              }
+            ],
+            [
+              16,
+              {
+                "Rg = √⟨s²⟩": 11.598498682504824,
+                "acylindricity (c)": 18.426960275687154,
+                "asphericity (b)": 86.33958097680593,
+                "relative shape anisotropy (𝜅²)": 0.3979876601614818
+              }
+            ],
+            [
+              17,
+              {
+                "Rg = √⟨s²⟩": 11.351695276866106,
+                "acylindricity (c)": 19.520583753624148,
+                "asphericity (b)": 71.80492325082572,
+                "relative shape anisotropy (𝜅²)": 0.31972700259265696
+              }
+            ],
+            [
+              18,
+              {
+                "Rg = √⟨s²⟩": 12.630008393596931,
+                "acylindricity (c)": 18.788003076303696,
+                "asphericity (b)": 103.19863359287889,
+                "relative shape anisotropy (𝜅²)": 0.41460241348194754
+              }
+            ],
+            [
+              19,
+              {
+                "Rg = √⟨s²⟩": 12.954543827023667,
+                "acylindricity (c)": 19.788072106917483,
+                "asphericity (b)": 107.99046369333583,
+                "relative shape anisotropy (𝜅²)": 0.39488078801841064
+              }
+            ],
+            [
+              20,
+              {
+                "Rg = √⟨s²⟩": 12.121739389925798,
+                "acylindricity (c)": 21.264887791421007,
+                "asphericity (b)": 74.03369462302007,
+                "relative shape anisotropy (𝜅²)": 0.2678470277350852
+              }
+            ],
+            [
+              21,
+              {
+                "Rg = √⟨s²⟩": 12.921306078415109,
+                "acylindricity (c)": 24.26110879330777,
+                "asphericity (b)": 96.24762645528392,
+                "relative shape anisotropy (𝜅²)": 0.3363776669880672
+              }
+            ],
+            [
+              22,
+              {
+                "Rg = √⟨s²⟩": 12.892079937815378,
+                "acylindricity (c)": 30.651601701531316,
+                "asphericity (b)": 82.81718056629808,
+                "relative shape anisotropy (𝜅²)": 0.274334387140552
+              }
+            ],
+            [
+              23,
+              {
+                "Rg = √⟨s²⟩": 12.665470335935042,
+                "acylindricity (c)": 21.17823753059968,
+                "asphericity (b)": 81.45107860971609,
+                "relative shape anisotropy (𝜅²)": 0.28272977775246916
+              }
+            ],
+            [
+              24,
+              {
+                "Rg = √⟨s²⟩": 12.268582051389224,
+                "acylindricity (c)": 17.759666085609535,
+                "asphericity (b)": 70.20960579743598,
+                "relative shape anisotropy (𝜅²)": 0.2390293275000753
+              }
+            ],
+            [
+              25,
+              {
+                "Rg = √⟨s²⟩": 13.128094918341233,
+                "acylindricity (c)": 20.40198132127111,
+                "asphericity (b)": 94.57272962858566,
+                "relative shape anisotropy (𝜅²)": 0.3132671274510649
+              }
+            ],
+            [
+              26,
+              {
+                "Rg = √⟨s²⟩": 12.455403363434097,
+                "acylindricity (c)": 21.807622417768844,
+                "asphericity (b)": 63.33290211806757,
+                "relative shape anisotropy (𝜅²)": 0.1874939521624435
+              }
+            ],
+            [
+              27,
+              {
+                "Rg = √⟨s²⟩": 12.440342143833876,
+                "acylindricity (c)": 24.96305764112155,
+                "asphericity (b)": 71.8894057483126,
+                "relative shape anisotropy (𝜅²)": 0.2548854506069143
+              }
+            ],
+            [
+              28,
+              {
+                "Rg = √⟨s²⟩": 12.15551142259001,
+                "acylindricity (c)": 13.979436296496587,
+                "asphericity (b)": 54.93838001270391,
+                "relative shape anisotropy (𝜅²)": 0.1597818881197548
+              }
+            ],
+            [
+              29,
+              {
+                "Rg = √⟨s²⟩": 12.703228052698607,
+                "acylindricity (c)": 17.39930731884457,
+                "asphericity (b)": 58.15129877972012,
+                "relative shape anisotropy (𝜅²)": 0.1500920837437666
+              }
+            ],
+            [
+              30,
+              {
+                "Rg = √⟨s²⟩": 12.506204958962842,
+                "acylindricity (c)": 25.621825144826033,
+                "asphericity (b)": 46.75993643158151,
+                "relative shape anisotropy (𝜅²)": 0.11800604783309566
+              }
+            ],
+            [
+              31,
+              {
+                "Rg = √⟨s²⟩": 13.275630718693337,
+                "acylindricity (c)": 30.304416699140276,
+                "asphericity (b)": 49.409093000300736,
+                "relative shape anisotropy (𝜅²)": 0.10186762775728625
+              }
+            ],
+            [
+              32,
+              {
+                "Rg = √⟨s²⟩": 12.619358658648915,
+                "acylindricity (c)": 33.49047846392459,
+                "asphericity (b)": 38.96182722091393,
+                "relative shape anisotropy (𝜅²)": 0.09310354435332034
+              }
+            ],
+            [
+              33,
+              {
+                "Rg = √⟨s²⟩": 12.568895136990008,
+                "acylindricity (c)": 31.32671899661958,
+                "asphericity (b)": 42.381254940046,
+                "relative shape anisotropy (𝜅²)": 0.1014734362414831
+              }
+            ],
+            [
+              34,
+              {
+                "Rg = √⟨s²⟩": 13.103337215179677,
+                "acylindricity (c)": 50.28118563421925,
+                "asphericity (b)": 29.97897758319885,
+                "relative shape anisotropy (𝜅²)": 0.09481219829236037
+              }
+            ]
+          ],
+          "size distribution": [
+            [
+              1,
+              8926433
+            ],
+            [
+              2,
+              6604920
+            ],
+            [
+              3,
+              3909134
+            ],
+            [
+              4,
+              2172205
+            ],
+            [
+              5,
+              1221977
+            ],
+            [
+              6,
+              710167
+            ],
+            [
+              7,
+              415228
+            ],
+            [
+              8,
+              253794
+            ],
+            [
+              9,
+              148951
+            ],
+            [
+              10,
+              103707
+            ],
+            [
+              11,
+              65326
+            ],
+            [
+              12,
+              45248
+            ],
+            [
+              13,
+              30711
+            ],
+            [
+              14,
+              18395
+            ],
+            [
+              15,
+              15422
+            ],
+            [
+              16,
+              7367
+            ],
+            [
+              17,
+              6507
+            ],
+            [
+              18,
+              4569
+            ],
+            [
+              19,
+              3798
+            ],
+            [
+              20,
+              1402
+            ],
+            [
+              21,
+              1847
+            ],
+            [
+              22,
+              1775
+            ],
+            [
+              23,
+              1341
+            ],
+            [
+              24,
+              623
+            ],
+            [
+              25,
+              262
+            ],
+            [
+              26,
+              424
+            ],
+            [
+              27,
+              413
+            ],
+            [
+              28,
+              215
+            ],
+            [
+              29,
+              204
+            ],
+            [
+              30,
+              178
+            ],
+            [
+              31,
+              311
+            ],
+            [
+              32,
+              79
+            ],
+            [
+              33,
+              25
+            ],
+            [
+              34,
+              67
+            ]
+          ]
+        },
+        "cluster analysis interval": 10,
+        "com": true,
+        "dir": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "dirrot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "dp": 7.5,
+        "dprot": 1.0,
+        "moves": 246730250,
+        "relative time": 0.926,
+        "relative time (without energy calc)": 0.614,
+        "repeat": 235,
+        "single_layer": false,
+        "stochastic": true,
+        "threshold": {
+          "CFF1 CFF1": 6.5
+        },
+        "√⟨r²⟩": 4.07,
+        "√⟨θ²⟩/°": 15.6,
+        "⟨N⟩": 2.55
+      }
+    }
+  ],
+  "number of groups": 236,
+  "number of particles": 1888,
+  "number of sweeps": 1050000,
+  "reactionlist": null,
+  "relative drift": 6.673397298611214e-13,
+  "simulation time": {
+    "in minutes": 372.0833333333333,
+    "in seconds": 22325
+  },
+  "temperature": 298.15
+}

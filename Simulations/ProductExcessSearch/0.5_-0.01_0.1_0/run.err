@@ -1,0 +1,93 @@
+[faunus 641313] T: creating exclusion matrix 0×0 for 0 atoms within distance 0
+[faunus 641313] I: Reading molecule configuration from file: /data2/stefan/SI-caffeine-surface-area/Structures/CFF_CG.aam
+[faunus 641313] D: comment line: Infile: CFF_CG.pdb on 2019-01-24 16:11:26.125618 aurora1
+[faunus 641313] D: net charge of loaded structure: 0e
+[faunus 641313] T: creating exclusion matrix 8×0 for 8 atoms within distance 0
+[faunus 641313] T: creating exclusion matrix 0×0 for 0 atoms within distance 0
+[faunus 641313] I: Reading molecule configuration from file: /data2/stefan/SI-caffeine-surface-area/Structures/CFF_CG.aam
+[faunus 641313] D: comment line: Infile: CFF_CG.pdb on 2019-01-24 16:11:26.125618 aurora1
+[faunus 641313] D: net charge of loaded structure: 0e
+[faunus 641313] T: creating exclusion matrix 8×0 for 8 atoms within distance 0
+[faunus 641313] T: space particle capacity = 7536
+[faunus 641313] T: space groups capacity = 942
+[faunus 641313] I: adding 941 CFF1 molecules --> 1.00004E-01 mol/l (0 inactive)
+[faunus 641313] I: adding 1 CFF2 molecules --> 0.00000E+00 mol/l (1 inactive)
+[faunus 641313] T: particles inserted = 7536
+[faunus 641313] T: groups inserted = 942
+[faunus 641313] D: Combination rule lorentz_berthelot in effect for the wca potential.
+[faunus 641313] T: Pair matrices for wca sigma (8×8) and epsilon (8×8) created using 0 custom pairs.
+[faunus 641313] D: activated instant energy summation
+[faunus 641313] D: setting summation policy to "serial"
+[faunus 641313] D: hamiltonian expanded with nonbonded_exact
+[faunus 641313] I: initial energy = 2.340474E+13 kT
+[faunus 641313] W: `density` is replaced by `molecule_density` and `atom_density`. Activating the latter...
+[faunus 641313] T: enabling gzip compression for energy.dat.gz
+[mcloop 641313] [1670487391.593190] W: humongous negative energy change
+[mcloop 641313] [1670487391.623675] W: humongous negative energy change
+[mcloop 641313] [1670487391.640795] W: humongous negative energy change
+[mcloop 641313] [1670487391.708715] W: humongous negative energy change
+[mcloop 641313] [1670487391.780598] W: humongous negative energy change
+[mcloop 641313] [1670487391.934216] W: humongous negative energy change
+[mcloop 641313] [1670487392.001113] W: humongous negative energy change
+[mcloop 641313] [1670487392.019442] W: humongous negative energy change
+[mcloop 641313] [1670487392.037679] W: humongous negative energy change
+[mcloop 641313] [1670487392.192012] W: humongous negative energy change
+[mcloop 641313] [1670487392.352660] W: humongous negative energy change
+[mcloop 641313] [1670487392.356384] W: humongous negative energy change
+[mcloop 641313] [1670487392.605629] W: humongous negative energy change
+[mcloop 641313] [1670487392.796312] W: humongous negative energy change
+[mcloop 641313] [1670487392.806185] W: humongous negative energy change
+[mcloop 641313] [1670487392.822605] W: humongous negative energy change
+[mcloop 641313] [1670487392.903351] W: humongous negative energy change
+[mcloop 641313] [1670487393.131900] W: humongous negative energy change
+[mcloop 641313] [1670487393.168588] W: humongous negative energy change
+[mcloop 641313] [1670487393.178770] W: humongous negative energy change
+[mcloop 641313] [1670487393.198748] W: humongous negative energy change
+[mcloop 641313] [1670487393.224686] W: humongous negative energy change
+[mcloop 641313] [1670487393.250721] W: humongous negative energy change
+[mcloop 641313] [1670487393.251405] W: humongous negative energy change
+[mcloop 641313] [1670487393.283354] W: humongous negative energy change
+[mcloop 641313] [1670487393.358661] W: humongous negative energy change
+[mcloop 641313] [1670487393.503323] W: humongous negative energy change
+[mcloop 641313] [1670487393.643552] W: humongous negative energy change
+[mcloop 641313] [1670487393.647902] W: humongous negative energy change
+[mcloop 641313] [1670487393.650547] W: humongous negative energy change
+[mcloop 641313] [1670487393.791383] W: humongous negative energy change
+[mcloop 641313] [1670487393.961905] W: humongous negative energy change
+[mcloop 641313] [1670487393.984357] W: humongous negative energy change
+[mcloop 641313] [1670487394.013969] W: humongous negative energy change
+[mcloop 641313] [1670487394.417598] W: humongous negative energy change
+[mcloop 641313] [1670487394.600652] W: humongous negative energy change
+[mcloop 641313] [1670487394.685153] W: humongous negative energy change
+[mcloop 641313] [1670487394.718967] W: humongous negative energy change
+[mcloop 641313] [1670487394.866312] W: humongous negative energy change
+[mcloop 641313] [1670487394.913957] W: humongous negative energy change
+[mcloop 641313] [1670487395.066141] W: humongous negative energy change
+[mcloop 641313] [1670487395.748740] W: humongous negative energy change
+[mcloop 641313] [1670487395.845017] W: humongous negative energy change
+[mcloop 641313] [1670487396.036257] W: humongous negative energy change
+[mcloop 641313] [1670487396.059873] W: humongous negative energy change
+[mcloop 641313] [1670487396.576714] W: humongous negative energy change
+[mcloop 641313] [1670487396.814325] W: humongous negative energy change
+[mcloop 641313] [1670487397.307253] W: humongous negative energy change
+[mcloop 641313] [1670487397.777741] W: humongous negative energy change
+[mcloop 641313] [1670487399.268967] W: humongous negative energy change
+[mcloop 641313] [1670487399.775546] W: humongous negative energy change
+[mcloop 641313] [1670487400.698173] W: humongous negative energy change
+[mcloop 641313] [1670487401.052471] W: humongous negative energy change
+[mcloop 641313] [1670487401.447846] W: humongous negative energy change
+[mcloop 641313] [1670487401.558017] W: humongous negative energy change
+[mcloop 641313] [1670487402.960967] W: humongous negative energy change
+[mcloop 641313] [1670487403.011194] W: humongous negative energy change
+[mcloop 641313] [1670487403.592297] W: humongous negative energy change
+[mcloop 641313] [1670487403.911355] W: humongous negative energy change
+[mcloop 641313] [1670487404.104958] W: humongous negative energy change
+[mcloop 641313] [1670487406.113855] W: humongous negative energy change
+[mcloop 641313] [1670487406.267758] W: humongous negative energy change
+[mcloop 641313] [1670487407.153528] W: humongous negative energy change
+[mcloop 641313] [1670487408.859859] W: humongous negative energy change
+[mcloop 641313] [1670487418.519388] W: humongous negative energy change
+[faunus 641313] T: preparing xtc output for 7528 particles
+[faunus 641313] I: relative energy drift = -3.967E-13
+[faunus 641313] D: writing to topology.pqr
+[faunus 641313] D: writing to topology.gro

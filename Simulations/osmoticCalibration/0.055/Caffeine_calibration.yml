@@ -1,0 +1,46 @@
+#!/usr/bin/env yason.py
+comment: Coarse grained caffine model in implicit salt and solvent using a SASA Hamiltonian.
+    
+temperature: 298.15
+random: {seed: hardware}
+geometry: {type: cuboid, length: 182.0 }
+mcloop: {macro: 10, micro: 2050000 }
+
+atomlist:
+    # Caffeine
+    - CF1:   { q: 0, sigma: 3.06, mw: 15.03, eps: 0.5, tension: 0.0000, tfe:  0.000 } # Aliphatic    (C)
+    - CF2:   { q: 0, sigma: 3.06, mw: 15.03, eps: 0.5, tension: 0.0000, tfe:  0.000 } # Aliphatic    (C)
+    - CF3:   { q: 0, sigma: 3.06, mw: 15.03, eps: 0.5, tension: 0.0000, tfe:  0.000 } # Aliphatic    (C)
+    - CF4:   { q: 0, sigma: 3.12, mw: 16.00, eps: 0.5, tension: 0.0000, tfe:  0.000 } # Amine/Ketone (O)
+    - CF5:   { q: 0, sigma: 3.12, mw: 16.00, eps: 0.5, tension: 0.0000, tfe:  0.000 } # Amine/Ketone (O)
+    - CF6:   { q: 0, sigma: 3.72, mw: 27.03, eps: 0.5, tension: 0.0000, tfe:  0.000 } # Amine        (N)
+    - CF7:   { q: 0, sigma: 4.64, mw: 76.06, eps: 0.5, tension: 0.0548, tfe:  0.000 } # Aromatic     (C)
+    - CF8:   { q: 0, sigma: 4.18, mw: 38.03, eps: 0.5, tension: 0.0548, tfe:  0.000 } # Aromatic     (C)
+
+moleculelist:
+    - CFF1:
+        structure: /data2/stefan/SI-caffeine-surface-area/Structures/CFF_CG.aam
+        insdir: [1,1,1]
+        rigid: True 
+    
+insertmolecules:
+    - CFF1: {N: 200 }
+
+energy:
+    - nonbonded_exact:
+        default:
+            - wca:  {mixing: LB}
+            - sasa: {molarity: 0, radius: 1.30}
+        cutoff_g2g:
+            default: 15
+    
+moves:
+    - moltransrot: {molecule: CFF1, dp: 10.0, dprot: 1, repeat: 10, dir: [1,1,1]}
+    
+analysis:
+    - molecule_density: {nstep: 100, nskip: 50000 }
+    - systemenergy:     {file: energy.dat.gz, nstep: 100 }
+    - virtualvolume:    {dV: 5, nstep: 100, file: volume.dat, nskip: 50000 }
+    - savestate:        {file: restart.json, nstep: -1}
+    - savestate:        {file: topology.gro, nstep: -1}
+    - xtcfile:          {file: trajectory.xtc, nstep: 100, nskip: 50000 }

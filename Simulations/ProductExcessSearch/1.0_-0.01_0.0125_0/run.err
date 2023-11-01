@@ -1,0 +1,30 @@
+[faunus 638122] T: creating exclusion matrix 0×0 for 0 atoms within distance 0
+[faunus 638122] I: Reading molecule configuration from file: /data2/stefan/SI-caffeine-surface-area/Structures/CFF_CG.aam
+[faunus 638122] D: comment line: Infile: CFF_CG.pdb on 2019-01-24 16:11:26.125618 aurora1
+[faunus 638122] D: net charge of loaded structure: 0e
+[faunus 638122] T: creating exclusion matrix 8×0 for 8 atoms within distance 0
+[faunus 638122] T: creating exclusion matrix 0×0 for 0 atoms within distance 0
+[faunus 638122] I: Reading molecule configuration from file: /data2/stefan/SI-caffeine-surface-area/Structures/CFF_CG.aam
+[faunus 638122] D: comment line: Infile: CFF_CG.pdb on 2019-01-24 16:11:26.125618 aurora1
+[faunus 638122] D: net charge of loaded structure: 0e
+[faunus 638122] T: creating exclusion matrix 8×0 for 8 atoms within distance 0
+[faunus 638122] T: space particle capacity = 952
+[faunus 638122] T: space groups capacity = 119
+[faunus 638122] I: adding 118 CFF1 molecules --> 1.25404E-02 mol/l (0 inactive)
+[faunus 638122] I: adding 1 CFF2 molecules --> 0.00000E+00 mol/l (1 inactive)
+[faunus 638122] T: particles inserted = 952
+[faunus 638122] T: groups inserted = 119
+[faunus 638122] D: Combination rule lorentz_berthelot in effect for the wca potential.
+[faunus 638122] T: Pair matrices for wca sigma (8×8) and epsilon (8×8) created using 0 custom pairs.
+[faunus 638122] D: activated instant energy summation
+[faunus 638122] D: setting summation policy to "serial"
+[faunus 638122] D: hamiltonian expanded with nonbonded_exact
+[faunus 638122] I: initial energy = 3.618960E+03 kT
+[faunus 638122] W: `density` is replaced by `molecule_density` and `atom_density`. Activating the latter...
+[faunus 638122] T: enabling gzip compression for energy.dat.gz
+[mcloop 638122] [1670487766.513600] W: humongous negative energy change
+[mcloop 638122] [1670487766.518575] W: humongous negative energy change
+[faunus 638122] T: preparing xtc output for 944 particles
+[faunus 638122] I: relative energy drift = -7.511E-14
+[faunus 638122] D: writing to topology.pqr
+[faunus 638122] D: writing to topology.gro

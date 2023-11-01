@@ -1,0 +1,13 @@
+#!/bin/bash
+#PBS -l nodes=1:ppn=1:nu               # 1 node, 1 core, CPU node
+#PBS -N Caffeine_0.0_0.01_0.1_0 # Job name
+#PBS -e run.err            # Error output
+#PBS -o run.out            # Output file name
+
+source ~/.bashrc
+source ~/.bash_profile
+
+cd /data2/stefan/SI-caffeine-surface-area/Simulations/ProductExcessSearch/0.0_0.01_0.1_0
+. /data2/APPLI/packages/gcc/gcc-12.1.0.rc
+
+~/faunus/faunus -i Caffeine_TFE_search.json -v6 --nobar

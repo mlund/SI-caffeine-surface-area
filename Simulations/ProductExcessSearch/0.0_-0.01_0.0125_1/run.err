@@ -1,0 +1,29 @@
+[faunus 641310] T: creating exclusion matrix 0×0 for 0 atoms within distance 0
+[faunus 641310] I: Reading molecule configuration from file: /data2/stefan/SI-caffeine-surface-area/Structures/CFF_CG.aam
+[faunus 641310] D: comment line: Infile: CFF_CG.pdb on 2019-01-24 16:11:26.125618 aurora1
+[faunus 641310] D: net charge of loaded structure: 0e
+[faunus 641310] T: creating exclusion matrix 8×0 for 8 atoms within distance 0
+[faunus 641310] T: creating exclusion matrix 0×0 for 0 atoms within distance 0
+[faunus 641310] I: Reading molecule configuration from file: /data2/stefan/SI-caffeine-surface-area/Structures/CFF_CG.aam
+[faunus 641310] D: comment line: Infile: CFF_CG.pdb on 2019-01-24 16:11:26.125618 aurora1
+[faunus 641310] D: net charge of loaded structure: 0e
+[faunus 641310] T: creating exclusion matrix 8×0 for 8 atoms within distance 0
+[faunus 641310] T: space particle capacity = 952
+[faunus 641310] T: space groups capacity = 119
+[faunus 641310] I: adding 118 CFF1 molecules --> 1.25404E-02 mol/l (0 inactive)
+[faunus 641310] I: adding 1 CFF2 molecules --> 0.00000E+00 mol/l (1 inactive)
+[faunus 641310] T: particles inserted = 952
+[faunus 641310] T: groups inserted = 119
+[faunus 641310] D: Combination rule lorentz_berthelot in effect for the wca potential.
+[faunus 641310] T: Pair matrices for wca sigma (8×8) and epsilon (8×8) created using 0 custom pairs.
+[faunus 641310] D: activated instant energy summation
+[faunus 641310] D: setting summation policy to "serial"
+[faunus 641310] D: hamiltonian expanded with nonbonded_exact
+[faunus 641310] I: initial energy = 1.683693E+03 kT
+[faunus 641310] W: `density` is replaced by `molecule_density` and `atom_density`. Activating the latter...
+[faunus 641310] T: enabling gzip compression for energy.dat.gz
+[mcloop 641310] [1670487391.528999] W: humongous negative energy change
+[faunus 641310] T: preparing xtc output for 944 particles
+[faunus 641310] I: relative energy drift = -1.027E-14
+[faunus 641310] D: writing to topology.pqr
+[faunus 641310] D: writing to topology.gro

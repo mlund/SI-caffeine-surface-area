@@ -1,0 +1,25 @@
+[faunus 3474267] T: creating exclusion matrix 0×0 for 0 atoms within distance 0
+[faunus 3474267] I: Reading molecule configuration from file: /data2/stefan/SI-caffeine-surface-area/Structures/CFF_CG.aam
+[faunus 3474267] D: comment line: Infile: CFF_CG.pdb on 2019-01-24 16:11:26.125618 aurora1
+[faunus 3474267] D: net charge of loaded structure: 0e
+[faunus 3474267] T: creating exclusion matrix 8×0 for 8 atoms within distance 0
+[faunus 3474267] T: space particle capacity = 1600
+[faunus 3474267] T: space groups capacity = 200
+[faunus 3474267] I: adding 200 CFF1 molecules --> 4.47894E-02 mol/l (0 inactive)
+[faunus 3474267] T: particles inserted = 1600
+[faunus 3474267] T: groups inserted = 200
+[faunus 3474267] D: Combination rule lorentz_berthelot in effect for the wca potential.
+[faunus 3474267] T: Pair matrices for wca sigma (8×8) and epsilon (8×8) created using 0 custom pairs.
+[faunus 3474267] D: activated instant energy summation
+[faunus 3474267] D: setting summation policy to "serial"
+[faunus 3474267] D: hamiltonian expanded with nonbonded_exact
+[faunus 3474267] I: initial energy = 9.234930E+06 kT
+[faunus 3474267] T: enabling gzip compression for energy.dat.gz
+[mcloop 3474267] [1666844684.357829] W: humongous negative energy change
+[mcloop 3474267] [1666844684.358029] W: humongous negative energy change
+[mcloop 3474267] [1666844684.358597] W: humongous negative energy change
+[mcloop 3474267] [1666844684.358689] W: humongous negative energy change
+[mcloop 3474267] [1666844684.359121] W: humongous negative energy change
+[faunus 3474267] T: preparing xtc output for 1600 particles
+[faunus 3474267] I: relative energy drift = -1.237E-13
+[faunus 3474267] D: writing to topology.gro
