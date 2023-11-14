@@ -1,6 +1,6 @@
 {
     "title": "Electronic Notebook: Salt Effects on Caffeine Across Concentration Regimes",
-    "description": "This repository contains electronic notebooks (Jupyter) for reproducing the simulation results",
+    "description": "This repository contains electronic notebooks (Jupyter) for reproducing the simulation results presented in the research article doi:10.1021/acs.jpcb.3c01085",
     "creators": [
         {
 	    "name": "Stefan Hervø-Hansen",
