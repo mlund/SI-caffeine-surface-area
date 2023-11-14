@@ -1,4 +1,4 @@
-name: SASACaffeine  
+name: python 3.10  
 dependencies:
     - python=3.10
     - pandas=1
