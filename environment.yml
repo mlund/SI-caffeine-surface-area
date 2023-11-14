@@ -1,11 +1,8 @@
 name: SASACaffeine  
-channels:
-    - conda_forge
 dependencies:
-    - python=3.8
-    - pandas=1.4
-    - scipy=1.8
-    - matplotlib=3.3
-    - numpy=1.21
-    - jupyter
-    - notebook=6.4
+    - python=3.10
+    - pandas=1
+    - scipy=1
+    - matplotlib=3
+    - numpy=1
+    - faunus=2.7
